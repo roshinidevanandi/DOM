@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="card">
+    <img id="img">
+    <h2 id="name"></h2>
+    <p id="role"><p>
+    <p id="id"></p>
+    <p id="mail"></p>
+    <p id="phone"></p>
+   </div>
+    <script>
+        let e1=document.getElementById("card");
+        // e1.style.border="2px solid black";
+        e1.style.height="420px";
+        e1.style.width="280px";
+        e1.style.backgroundPosition="center";   
+        e1.style.background="url(https://i.pinimg.com/736x/63/a2/61/63a261dc920f202cf34c77f71ebf97d7.jpg)";
+        e1.style.backgroundSize="cover"
+        e1.style.backgroundPosition="center"
+        e1.style.marginTop="140px"
+        e1.style.marginLeft="600px"
+
+        let img1=document.getElementById("img");
+        img1.style.border="2px solid black";
+        img1.style.height="100px";
+        img1.style.width="100px";
+        img1.style.borderRadius="50px";
+        img1.style.background="url(./mypic.jpeg)";
+        img1.style.backgroundSize="90px"
+        img1.style.marginTop="60px";
+        img1.style.marginLeft="90px";
+
+        let uname=document.getElementById("name");
+         uname.innerHTML="DEVANANDI ROSHINI";
+         uname.style.color="blue"
+         uname.style.fontSize="20px";
+         uname.style.textAlign="center";
+         uname.style.fontFamily="calibri";
+
+        let rol=document.getElementById("role");
+        rol.innerHTML="Frontend Developer";
+        rol.style.fontSize="16px";
+        rol.style,fontFamily="calibri";
+        rol.style.textAlign="center";
+
+        let id_no=document.getElementById("id");
+        id_no.innerHTML="<b>Id No:</b> 123456";
+        id_no.style.fontSize="16px";
+        id_no.style,fontFamily="calibri";
+        // id_no.style.textAlign="center";
+        id_no.style.marginLeft="50px";
+        id_no.style.marginTop="30px" 
+
+        let email=document.getElementById("mail");
+        email.innerHTML="<b>E-mail:</b> roshini@gmail.com";
+        email.style.fontSize="16px";
+        email.style,fontFamily="calibri";
+        email.style.textAlign="center";
+        
+
+        let p_n=document.getElementById("phone");
+        p_n.innerHTML="<b>Phone:</b> 9989017944";
+        p_n.style.fontSize="16px";
+        p_n.style,fontFamily="calibri";
+        p_n.style.textAlign="center"; 
+        p_n.style.marginRight="50px"
+    </script>
+</body>
+</html>
